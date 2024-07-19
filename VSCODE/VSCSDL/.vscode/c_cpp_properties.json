@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\dulred\\dev\\3rdlibs\\SDL2-devel-2.0.22-VC\\SDL2-2.0.22\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "D:/dulred/dev/env/x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

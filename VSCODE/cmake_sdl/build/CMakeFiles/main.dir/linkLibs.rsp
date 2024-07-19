@@ -1,0 +1,1 @@
+ -LD:/dulred/dev/3rdlibs/SDL2-devel-2.0.22-mingw/SDL2-2.0.22/x86_64-w64-mingw32/lib -lmingw32 -lSDL2main -mwindows -LD:/dulred/dev/3rdlibs/SDL2-devel-2.0.22-mingw/SDL2-2.0.22/x86_64-w64-mingw32/lib -lSDL2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
