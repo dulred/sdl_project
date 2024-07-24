@@ -3,17 +3,19 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "D:\\dulred\\dev\\env\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+            "command": "D:/dev/software/QT/Tools/mingw1120_64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "-ID:/dulred/dev/3rdlibs/SDL2-devel-2.0.22-VC/SDL2-2.0.22/include",
-                "-LD:/dulred/dev/3rdlibs/SDL2-devel-2.0.22-VC/SDL2-2.0.22/lib/x64",
+                "-ID:/dev/3rdlibs/SDL2-devel-2.0.22-mingw/SDL2-2.0.22/x86_64-w64-mingw32/include/SDL2",
+                "-LD:/dev/3rdlibs/SDL2-devel-2.0.22-mingw/SDL2-2.0.22/x86_64-w64-mingw32/lib",
+                "-lmingw32",
                 "-lSDL2main",
-                "-lSDL2"
+                "-lSDL2",
+                "-mwindows"
             ],
             "options": {
                 "cwd": "${fileDirname}"
