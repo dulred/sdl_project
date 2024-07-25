@@ -51,6 +51,7 @@ int main(int argc, char* argv[]) {
 			SDL_Log("are you ok ?");
 		}
 		
+		SDL_Log("are you ok ?");
 
 
 		SDL_RenderCopyEx(renderer,textfure,NULL,&dstrect,degree,NULL,SDL_FLIP_NONE);
